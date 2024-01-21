@@ -79,7 +79,7 @@ Enthusiast''')
     st.text('“Passionate Explorer, Innovative Learner, Collaborative Builder”')
     sourcecode = 'https://github.com/gowdavidwan2003/numberofjobsfinder'
     st.markdown(f'<a href={sourcecode}><button style="background-color:grey;display: block; width: 100%">Source - Code </button></a>', unsafe_allow_html=True)
-    st.markdown(f'<a href={dataset}><button style="background-color:grey;display: block; width: 100%">Dataset used</button></a>', unsafe_allow_html=True)
+    
     st.subheader("Contact me")
     first , last = st.columns(2)
     first1 , last1 = st.columns(2)
